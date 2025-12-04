@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -269,33 +268,99 @@
             border-top: 1px solid rgba(138, 43, 226, 0.3);
         }
 
-        /* Responsividad */
+        /* Responsividad mejorada */
         @media (max-width: 768px) {
             .nav-container {
                 flex-direction: column;
                 text-align: center;
+                padding: 10px 15px;
+            }
+            
+            .nav-container h1 {
+                font-size: 1.2em;
+                margin-bottom: 10px;
             }
             
             nav ul {
                 flex-direction: column;
-                margin-top: 15px;
+                margin-top: 10px;
+                width: 100%;
             }
             
             nav ul li {
                 margin: 5px 0;
+                width: 100%;
+            }
+            
+            nav ul li a {
+                display: block;
+                padding: 12px 10px;
+                font-size: 0.9em;
+            }
+            
+            header {
+                padding: 80px 15px 40px;
+                margin-top: 60px;
             }
             
             header h1 {
-                font-size: 2.5em;
+                font-size: 2em;
+            }
+            
+            header p {
+                font-size: 1.1em;
+            }
+            
+            main {
+                padding: 15px;
             }
             
             section {
-                padding: 25px;
-                margin: 30px 0;
+                padding: 20px;
+                margin: 20px 0;
+                border-radius: 8px;
+            }
+            
+            section h2 {
+                font-size: 1.5em;
+                padding-bottom: 8px;
+                margin-bottom: 15px;
+            }
+            
+            ul {
+                padding-left: 15px;
+            }
+            
+            ul li {
+                font-size: 0.9em;
+                margin-bottom: 8px;
+            }
+            
+            .recuadro {
+                padding: 15px;
+                margin: 15px 0;
+            }
+            
+            .recuadro p {
+                font-size: 0.9em;
+            }
+            
+            footer {
+                padding: 20px 15px;
+                font-size: 0.9em;
             }
             
             body {
                 background-size: 150% 150%;
+                font-size: 14px;
+            }
+            
+            #scrollToTop {
+                width: 45px;
+                height: 45px;
+                font-size: 18px;
+                bottom: 15px;
+                right: 15px;
             }
         }
 
@@ -320,7 +385,7 @@
     </nav>
 
     <header>
-        <h1>Sistema hidraulico</h1>
+        <h1>Mecanismo con Jeringas, Palitos de Helado y Cartón</h1>
         <p>Una presentación interactiva y profesional de nuestro trabajo práctico</p>
     </header>
 
@@ -406,4 +471,3 @@
     </script>
 </body>
 </html>
-```
